@@ -8,6 +8,10 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-141207555-1');
+
+onPageLoad: function (container) {
+ container.scrollIntoView();	
+}
 </script>
 <style>
 	    .black-box {
@@ -39,7 +43,9 @@
       data-account=&quot;google-tag-manager&quot;
       data-program=&quot;embedded-program&quot;
       data-playlist=&quot;test-achieve&quot;
+      expand=&quot;no-scroll&quot;
       data-module=&quot;466&quot;&gt;&lt;/script&gt;
+
 </pre>
 <div class="black-box">
 <script src="https://everfi-next-dev.net/embed_script.js"
@@ -48,6 +54,7 @@
         data-program="embedded-program"
         data-playlist="test-achieve"
         data-module="466"
+	expand="no-scroll"
         data-script_id="everfi-program-content-iframer"></script>
         </div></main>
         
